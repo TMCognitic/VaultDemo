@@ -1,0 +1,11 @@
+@OpenBaoDemo.Api_HostAddress = http://localhost:5033
+
+GET {{OpenBaoDemo.Api_HostAddress}}/openapi/v1.json
+Accept: application/json
+
+###
+
+GET {{OpenBaoDemo.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
